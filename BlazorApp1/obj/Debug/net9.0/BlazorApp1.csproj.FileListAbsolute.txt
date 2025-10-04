@@ -76,3 +76,4 @@
 /Users/alex/projects/Assignment2/BlazorApp1/obj/Debug/net9.0/BlazorApp1.pdb
 /Users/alex/projects/Assignment2/BlazorApp1/obj/Debug/net9.0/BlazorApp1.genruntimeconfig.cache
 /Users/alex/projects/Assignment2/BlazorApp1/obj/Debug/net9.0/ref/BlazorApp1.dll
+/Users/alex/projects/Assignment2/BlazorApp1/obj/Debug/net9.0/BlazorApp1.sourcelink.json
