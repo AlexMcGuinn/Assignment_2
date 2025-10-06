@@ -1,10 +1,18 @@
 using BlazorApp1.Components;
+using BlazorApp1.Components.Data;
+using BlazorApp1.Components.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddSingleton<TransactionRepo>();
+builder.Services.AddSingleton<TransactionService>();
+
+builder.Services.AddSingleton<BudgetRepo>();
+builder.Services.AddSingleton<BudgetService>();
 
 var app = builder.Build();
 
