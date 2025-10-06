@@ -11,3 +11,44 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+## ADD THESE .NET/Blazor ignores:
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET build files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.FileListAbsolute.txt
+*.csproj.FileListAbsolute.txt
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/packages/*
+*.nuget.props
+*.nuget.targets
+
+# Blazor specific
+**/*.dswa.cache.json
+**/staticwebassets.build.json
+**/staticwebassets.development.json
+**/staticwebassets.build.endpoints.json
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
