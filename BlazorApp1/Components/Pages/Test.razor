@@ -53,7 +53,7 @@
     private decimal Balance;
 
     
-    private List<Budget> Budgets = new();
+    private List<Entities.Budget> Budgets = new();
     private string NewBudgetName = "";
     private decimal NewBudgetTarget;
     private string StatusMessage = "";
@@ -94,7 +94,7 @@
             return;
         }
 
-        var budget = new Budget
+        var budget = new Entities.Budget
         {
             Name = NewBudgetName,
             TargetAmount = NewBudgetTarget,

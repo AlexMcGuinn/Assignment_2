@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BbmFseXRpY3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alex/projects/Assignment2/BlazorApp1/Components/Pages/Budget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9CdWRnZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alex/projects/Assignment2/BlazorApp1/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,10 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/alex/projects/Assignment2/BlazorApp1/Components/Pages/Transactions.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9UcmFuc2FjdGlvbnMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/alex/projects/Assignment2/BlazorApp1/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alex/projects/Assignment2/BlazorApp1/Components/Routes.razor]
