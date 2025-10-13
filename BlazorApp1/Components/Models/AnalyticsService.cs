@@ -29,7 +29,7 @@ public class AnalyticsService
 
         var result = new List<CategorySummary>();
 
-        var categories = categoryColumn.Distinct().ToList();
+        var categories = categoryColumn.Cast<string>().Distinct().ToList();
 
         foreach (var category in categories)
         {
